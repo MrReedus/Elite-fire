@@ -1,0 +1,115 @@
+//!VARIABLES
+
+//! FONTS
+@font-face {
+  font-family: "Lab grotesque";
+  src: url(../css/fonts/LabGrotesque/LabGrotesqueThin.woff) format("woff");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Lab grotesque";
+  src: url(../css/fonts/LabGrotesque/LabGrotesqueLight.woff) format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lab grotesque";
+  src: url(../css/fonts/LabGrotesque/LabGrotesqueRegular.woff) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lab grotesque";
+  src: url(../css/fonts/LabGrotesque/LabGrotesqueMedium.woff) format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Lab grotesque";
+  src: url(../css/fonts/LabGrotesque/LabGrotesqueBold.woff) format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Scania Sans CY";
+  src: url(../css/fonts/ScaniaSansCY/ScaniaSansCYBold.woff) format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Scania Sans CY";
+  src: url(../css/fonts/ScaniaSansCY/ScaniaSansCYRegular.woff) format("woff");
+  font-weight: 400;
+}
+
+@import "_Nullstyles.scss";
+
+@import "_Header.scss";
+@import "_Intro.scss";
+// @import "_Popular.scss";
+// @import "_Quality.scss";
+// @import "_News.scss";
+// @import "_Footer.scss";
+// @import "_Toggle-menu.scss";
+
+body {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  background: url("../src/images/bg.jpg");
+}
+
+//** about
+.title {
+  text-transform: uppercase;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  // background: linear-gradient(240.22deg, #ffffff 31.8%, rgba(255, 255, 255, 0) 87.73%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // background-clip: text;
+  // text-fill-color: transparent;
+}
+.about__title {
+  text-align: center;
+  max-width: 671px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about__subtitle {
+  max-width: 822px;
+  margin: 0 auto;
+}
+
+.about__image {
+  margin-bottom: 58px;
+}
+.about__pluses {
+  margin-bottom: 200px;
+}
+.pluses {
+  display: flex;
+  justify-content: space-between;
+}
+.pluses__item {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+}
+.pluses__description {
+  max-width: 176px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
