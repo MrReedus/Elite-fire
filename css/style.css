@@ -228,16 +228,6 @@ html {
   max-width: 120px;
 }
 
-body {
-  font-family: "Lab Grotesque";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
-  background: url("../src/images/bg.jpg");
-}
-
 .title {
   text-transform: uppercase;
   font-weight: 250;
@@ -270,10 +260,6 @@ body {
   margin-bottom: 58px;
 }
 
-.about__pluses {
-  margin-bottom: 200px;
-}
-
 .pluses {
   display: flex;
   justify-content: space-between;
@@ -290,4 +276,109 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+}
+
+body {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  background: url("../src/images/bg.jpg");
+}
+
+.refueling__container {
+  padding-top: 200px;
+  display: flex;
+  background: url("../src/images/light-refuel.png ") no-repeat 79% 36%, url("../src/images/Group.png") no-repeat 79% 36%;
+}
+
+.refueling__info {
+  margin-right: 40px;
+  padding-bottom: 150px;
+}
+
+.refueling__title {
+  margin-bottom: 23px;
+}
+
+.refueling__description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 33px;
+  max-width: 370px;
+}
+.refueling__description:first-of-type {
+  margin-bottom: 52px;
+}
+
+.refueling__buttons {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-right: 211px;
+}
+
+.refueling__wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 109px;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.refueling__line {
+  width: 31px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.refueling__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 234px;
+}
+
+.time {
+  justify-self: end;
+  width: 151px;
+  height: 151px;
+  background-color: #ffd47c;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.time__title {
+  color: #000000;
+  font-family: "Scania Sans CY";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  max-width: 55px;
+  position: absolute;
+  top: 35px;
+  right: 60px;
+}
+.time__title span {
+  font-size: 19.2px;
+}
+
+.time__text {
+  font-family: "Scania Sans CY";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  max-width: 79px;
+  position: absolute;
+  top: 87px;
+  right: 36px;
 }
