@@ -1,0 +1,99 @@
+//** refuel***//
+
+.refueling {
+}
+.refueling__container {
+  padding-top: 200px;
+  display: flex;
+  background: url("../src/images/light-refuel.png ") no-repeat 79% 36%, url("../src/images/Group.png") no-repeat 79% 36%;
+  //! background-size: contain, cover;
+  margin-bottom: 170px;
+}
+.refueling__info {
+  margin-right: 40px;
+  padding-bottom: 150px;
+}
+.refueling__title {
+  margin-bottom: 23px;
+}
+
+.refueling__description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 33px;
+  max-width: 370px;
+  &:first-of-type {
+    margin-bottom: 52px;
+  }
+}
+.refueling__buttons {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-right: 211px;
+}
+.refueling__wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 109px;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.refueling__image {
+}
+.refueling__line {
+  width: 31px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.refueling__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 234px;
+}
+
+.time {
+  justify-self: end;
+  width: 151px;
+  height: 151px;
+  background-color: #ffd47c;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+
+  // background:  no-repeat;
+
+  // background: gradient(100% 65.98% at 100% 73.18%, #ffffff 0.31%, #ffe2a4 59.23%, #ffd47c 100%);
+}
+.time__title {
+  color: #000000;
+  font-family: "Scania Sans CY";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  max-width: 55px;
+  position: absolute;
+  top: 35px;
+  right: 60px;
+  span {
+    font-size: 48px * 0.4;
+  }
+}
+.time__text {
+  font-family: "Scania Sans CY";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  max-width: 79px;
+  position: absolute;
+  top: 87px;
+  right: 36px;
+}
