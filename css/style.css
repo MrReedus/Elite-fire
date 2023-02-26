@@ -402,21 +402,16 @@ html {
   text-align: center;
 }
 
-body {
-  font-family: "Lab Grotesque";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
-  background: url("../src/images/bg.jpg");
+.info {
+  margin-bottom: 106px;
 }
 
-.info__container {
+.info__flex-wrapper {
   display: flex;
   -moz-column-gap: 50px;
        column-gap: 50px;
   align-content: center;
+  margin-bottom: 150px;
 }
 
 .info__description {
@@ -424,10 +419,13 @@ body {
   line-height: 27px;
 }
 
-.left-block__title {
+.block-title {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+}
+
+.left-block__title {
   margin-bottom: 25px;
 }
 
@@ -497,4 +495,92 @@ body {
 
 .slider__button_right {
   background: url("../src/icons/arrow-right.svg") no-repeat;
+}
+
+.info__common-block {
+  display: flex;
+  gap: 121px;
+}
+
+.solutions__title {
+  margin-bottom: 24px;
+}
+
+.solutions__description {
+  margin-bottom: 37px;
+  max-width: 414px;
+}
+
+.accessories__title {
+  margin-bottom: 24px;
+}
+
+.accessories__description {
+  margin-bottom: 37px;
+  max-width: 297px;
+}
+
+.catalog__title {
+  max-width: 862px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  margin-bottom: 35px;
+}
+
+.catalog__button {
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  width: 284px;
+  height: 60px;
+  color: #121212;
+  background: linear-gradient(90deg, rgb(249, 87, 77) 80%);
+  background: rgb(236, 207, 148);
+  margin-bottom: 97px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.catalog__button:focus, .catalog__button:hover {
+  background-color: #e8c57e;
+}
+
+.images-block__images {
+  display: flex;
+  gap: 42px;
+}
+
+.images-block__item {
+  width: 370px;
+  height: 267px;
+  background-color: #000;
+}
+.images-block__item:first-child {
+  margin-bottom: 90px;
+}
+
+.title_images {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.title {
+  background: linear-gradient(249.07deg, #ffffff 36.17%, rgba(255, 255, 255, 0) 97.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+body {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  background: url("../src/images/bg.jpg");
 }
