@@ -45,7 +45,7 @@
 @import "_Intro.scss";
 @import "_About.scss";
 @import "_Refuel.scss";
-// @import "_News.scss";
+@import "_Smart.scss";
 // @import "_Footer.scss";
 // @import "_Toggle-menu.scss";
 
@@ -59,29 +59,97 @@ body {
   background: url("../src/images/bg.jpg");
 }
 
-.smart {
+.info {
 }
-.smart__container {
-  background-image: url("../src/images/smartbg.jpg");
-  background-repeat: no-repeat;
-  height: 900px;
+.info__container {
+  display: flex;
+  column-gap: 50px;
+  align-content: center;
 }
-.smart__title {
-  max-width: 770px;
-  margin: 0 auto;
-  margin-bottom: 13px;
-  text-align: center;
+
+.info__description {
+  font-size: 14px;
+  line-height: 27px;
 }
-.title {
+.info__left-block {
 }
-.smart__text {
-  font-family: "Lab Grotesque";
-  font-style: normal;
-  font-weight: 300;
+.left-block {
+}
+.left-block__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+.left-block__description {
+  margin-bottom: 19px;
+}
+.left-block__image {
+}
+.left-block__variants {
+  margin-bottom: 58px;
+}
+.variants {
+}
+.left-block__subtitle {
+  font-weight: 400;
   font-size: 20px;
-  line-height: 33px;
-  max-width: 644px;
-  margin: 0 auto;
-  padding-bottom: 515px;
-  text-align: center;
+  line-height: 40px;
+  margin-bottom: 22px;
+}
+.left-block__subtitle_gray {
+  color: rgba(117, 117, 117, 1);
+}
+.left-block__list {
+}
+.block-list {
+  display: grid;
+  grid-template-columns: 239px 323px;
+}
+.block-list__item {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.left-block__complectation {
+}
+.info__right-block {
+}
+.right-block {
+}
+.right-block__title {
+  max-width: 341px;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.right-block__description {
+  margin-bottom: 50px;
+}
+.info__slider {
+}
+.slider {
+  width: 537px;
+  height: 346px;
+  background-color: #121212;
+  position: relative;
+}
+
+.slider__buttons {
+  position: absolute;
+  left: 22px;
+  bottom: 27px;
+}
+
+.slider__button {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.slider__button_left {
+  background: url("../src/icons/arrow-leftsvg.svg") no-repeat;
+}
+.slider__button_right {
+  background: url("../src/icons/arrow-right.svg") no-repeat;
 }
