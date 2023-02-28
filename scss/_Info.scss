@@ -4,6 +4,8 @@
 
 .info__flex-wrapper {
   display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
   column-gap: 50px;
   align-content: center;
   margin-bottom: 150px;
@@ -92,7 +94,9 @@
 
 .info__common-block {
   display: flex;
-  gap: 121px;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 8.8%; //!121px;
 }
 
 .solutions__title {

@@ -11,17 +11,20 @@
   margin-bottom: 35px;
 }
 .catalog__button {
-  display: block;
   margin: 0 auto;
+  width: 284px;
+  height: 60px;
+  margin-bottom: 97px;
+}
+
+.button {
+  display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  width: 284px;
-  height: 60px;
   color: #121212;
   background: linear-gradient(90deg, rgba(249, 87, 77, 1) 80%);
   background: rgb(236, 207, 148);
-  margin-bottom: 97px;
   cursor: pointer;
   transition: 0.2s ease;
   &:focus,
@@ -32,6 +35,7 @@
 
 .images-block__images {
   display: flex;
+  flex-wrap: wrap;
   gap: 42px;
 }
 .images-block__item {
