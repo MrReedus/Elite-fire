@@ -27,9 +27,20 @@
   background: rgb(236, 207, 148);
   cursor: pointer;
   transition: 0.2s ease;
+  position: relative;
+  overflow: hidden;
   &:focus,
   &:hover {
     background-color: darken(rgb(236, 207, 148), 5);
+  }
+  &::before {
+    content: "";
+    background: url("../src/images/gradient.png") no-repeat;
+    width: 226px;
+    height: 124px;
+    position: absolute;
+    top: 0;
+    left: -30px;
   }
 }
 

@@ -1,4 +1,12 @@
 //** about
+.about {
+  margin-bottom: 10px;
+}
+.about__container {
+  background: url("../src/images/kamin-light.png") no-repeat 50% -30%;
+  padding-top: 242px;
+  padding-bottom: 20px;
+}
 .title {
   text-transform: uppercase;
   font-weight: 250;

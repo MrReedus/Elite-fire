@@ -173,7 +173,6 @@ html {
   background: url("../src/images/intro_backround.png") no-repeat, url("../src/images/intro_light.png ") no-repeat;
   background-position: top -12% right 14%, top -14% right 17%;
   background-size: 700px 429px;
-  padding-bottom: 242px;
 }
 
 .intro__title {
@@ -226,6 +225,16 @@ html {
   color: #fff;
   text-align: center;
   max-width: 120px;
+}
+
+.about {
+  margin-bottom: 10px;
+}
+
+.about__container {
+  background: url("../src/images/kamin-light.png") no-repeat 50% -30%;
+  padding-top: 242px;
+  padding-bottom: 20px;
 }
 
 .title {
@@ -549,9 +558,20 @@ html {
   background: rgb(236, 207, 148);
   cursor: pointer;
   transition: 0.2s ease;
+  position: relative;
+  overflow: hidden;
 }
 .button:focus, .button:hover {
   background-color: #e8c57e;
+}
+.button::before {
+  content: "";
+  background: url("../src/images/gradient.png") no-repeat;
+  width: 226px;
+  height: 124px;
+  position: absolute;
+  top: 0;
+  left: -30px;
 }
 
 .images-block__images {
@@ -592,24 +612,24 @@ body {
   background: url("../src/images/bg.jpg");
 }
 
-.your-camine {
+.your-fireplace {
   padding-top: 94px;
   margin-bottom: 89px;
 }
 
-.your-camine__title {
+.your-fireplace__title {
   margin: 0 auto;
   max-width: 609px;
   margin-bottom: 67px;
 }
 
-.your-camine__flex-wrapper {
+.your-fireplace__flex-wrapper {
   display: flex;
   gap: 80px;
   margin-bottom: 68px;
 }
 
-.your-camine__image img {
+.your-fireplace__image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -628,7 +648,7 @@ body {
   text-transform: uppercase;
 }
 
-.your-camine__range-wrapper {
+.your-fireplace__range-wrapper {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -636,9 +656,14 @@ body {
 
 .form-right__range {
   width: 296px;
-  height: 0px;
-  border: 2px solid #ffcf7a;
+  border: 2px solid #646464;
   position: relative;
+}
+.form-right__range::before {
+  content: "";
+  width: 50%;
+  border: 2px solid #ffcf7a;
+  display: block;
 }
 .form-right__range span {
   display: block;
@@ -746,19 +771,19 @@ body {
   background-color: #ceb787;
 }
 
-.camine-info {
+.fireplace-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 98px;
 }
 
-.camine-info__flex-inner {
+.fireplace-info__flex-inner {
   display: flex;
   flex-direction: column;
 }
 
-.camine-info__text {
+.fireplace-info__text {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.135em;
@@ -767,19 +792,19 @@ body {
   line-height: 55px;
 }
 
-.camine-info__value {
+.fireplace-info__value {
   font-weight: 400;
   font-size: 24px;
 }
 
-.camine-info__round {
+.fireplace-info__round {
   width: 28px;
   height: 28px;
   background: #b8542a;
   border-radius: 500px;
 }
 
-.camine-info__title {
+.fireplace-info__title {
   font-weight: 500;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.5);
@@ -787,7 +812,7 @@ body {
   line-height: 40px;
 }
 
-.camine-info__price {
+.fireplace-info__price {
   display: block;
   font-weight: 300;
   font-size: 36px;
@@ -796,7 +821,7 @@ body {
   color: #ffcf7a;
 }
 
-.camine-info__button {
+.fireplace-info__button {
   width: 254px;
   height: 60px;
 }
