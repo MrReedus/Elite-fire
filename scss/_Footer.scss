@@ -7,6 +7,11 @@
 }
 
 .title--gradient {
+  background: linear-gradient(215.07deg, #ffffff 42.17%, rgba(255, 255, 255, 0) 105.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .footer__contacts {

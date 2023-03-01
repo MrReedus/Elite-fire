@@ -4,16 +4,16 @@
 .smart__container {
   background-image: url("../src/images/smartbg.jpg");
   background-repeat: no-repeat;
-  // height: 900px;
+  background-size: 100% 600px;
 }
+
 .smart__title {
   max-width: 770px;
   margin: 0 auto;
   margin-bottom: 13px;
   text-align: center;
 }
-.title {
-}
+
 .smart__text {
   font-family: "Lab Grotesque";
   font-style: normal;
@@ -22,6 +22,26 @@
   line-height: 33px;
   max-width: 644px;
   margin: 0 auto;
-  padding-bottom: 515px;
+  margin-bottom: 205px;
+  // padding-bottom: 515px;
   text-align: center;
+}
+.smart__flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 215px;
+  span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 33px;
+    color: #464239;
+  }
+}
+
+.smart__yandex {
+  padding-left: 130px;
+}
+.smart__Xiaomi {
+  padding-right: 100px;
+  flex-shrink: 0;
 }
