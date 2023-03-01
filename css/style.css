@@ -107,6 +107,10 @@ html {
 }
 
 .header__logo {
+  margin-right: 39px;
+}
+
+.logo {
   text-transform: uppercase;
   font-family: "Scania Sans CY";
   font-style: normal;
@@ -114,7 +118,6 @@ html {
   font-size: 20px;
   line-height: 70px;
   color: #fff;
-  margin-right: 39px;
 }
 
 .header_text {
@@ -268,6 +271,12 @@ html {
 .about__image {
   margin-bottom: 58px;
 }
+.about__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .pluses {
   display: flex;
@@ -417,9 +426,9 @@ html {
 
 .info__flex-wrapper {
   display: flex;
+  flex-wrap: wrap;
   -moz-column-gap: 50px;
        column-gap: 50px;
-  align-content: center;
   margin-bottom: 150px;
 }
 
@@ -476,6 +485,7 @@ html {
 }
 
 .right-block__description {
+  max-width: 539px;
   margin-bottom: 50px;
 }
 
@@ -562,7 +572,7 @@ html {
   overflow: hidden;
 }
 .button:focus, .button:hover {
-  background-color: #e8c57e;
+  background-color: #e6bf71;
 }
 .button::before {
   content: "";
@@ -576,13 +586,13 @@ html {
 
 .images-block__images {
   display: flex;
-  flex-wrap: wrap;
   gap: 42px;
 }
 
 .images-block__item {
   width: 370px;
   height: 267px;
+  min-width: 246px;
   background-color: #000;
 }
 .images-block__item:first-child {
@@ -600,16 +610,6 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-}
-
-body {
-  font-family: "Lab Grotesque";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
-  background: url("../src/images/bg.jpg");
 }
 
 .your-fireplace {
@@ -656,7 +656,8 @@ body {
 
 .form-right__range {
   width: 296px;
-  border: 2px solid #646464;
+  height: 2px;
+  background-color: #646464;
   position: relative;
 }
 .form-right__range::before {
@@ -763,12 +764,11 @@ body {
 }
 
 .checkbox:checked + .ckeckbox-fake::before {
-  background-color: #ceb787;
   opacity: 1;
 }
 
 .checkbox:checked + .ckeckbox-fake {
-  background-color: #ceb787;
+  background-color: #eccf94;
 }
 
 .fireplace-info {
@@ -824,4 +824,106 @@ body {
 .fireplace-info__button {
   width: 254px;
   height: 60px;
+}
+
+.footer__title {
+  margin-bottom: 71px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.contact__title {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #949494;
+}
+
+.contact__tel,
+.contact__telegram {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #fff;
+  display: block;
+}
+
+.contact__tel {
+  margin-bottom: 20px;
+}
+
+.contact__tel--big {
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 33px;
+  margin-bottom: 61px;
+}
+
+.contact__email {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #ffcf7a;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.contact__adress {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  max-width: 352px;
+}
+
+.contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 279px;
+  height: 60px;
+  border: 1px solid #ceb787;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+.contact__button:hover, .contact__button:focus {
+  background-color: #ceb787;
+  color: #232323;
+}
+
+.footer__lower {
+  padding: 15px 0px 18px 0px;
+  border-top: 1px solid #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+}
+
+.footer__text--link {
+  margin-left: 300px;
+}
+
+body {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  background: url("../src/images/bg.jpg");
 }

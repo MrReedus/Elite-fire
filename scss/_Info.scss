@@ -4,10 +4,8 @@
 
 .info__flex-wrapper {
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: center;
+  flex-wrap: wrap;
   column-gap: 50px;
-  align-content: center;
   margin-bottom: 150px;
 }
 
@@ -21,6 +19,7 @@
   font-size: 24px;
   line-height: 36px;
 }
+
 .left-block__title {
   margin-bottom: 25px;
 }
@@ -28,8 +27,7 @@
 .left-block__description {
   margin-bottom: 19px;
 }
-.left-block__image {
-}
+
 .left-block__variants {
   margin-bottom: 58px;
 }
@@ -63,6 +61,7 @@
 }
 
 .right-block__description {
+  max-width: 539px;
   margin-bottom: 50px;
 }
 

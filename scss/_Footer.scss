@@ -1,0 +1,104 @@
+.footer {
+}
+.footer__container {
+}
+.footer__title {
+  margin-bottom: 71px;
+}
+
+.title--gradient {
+}
+
+.footer__contacts {
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.contacts__item {
+}
+
+.contact__title {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #949494;
+}
+
+.contact__tel,
+.contact__telegram {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #fff;
+  display: block;
+}
+.contact__tel {
+  margin-bottom: 20px;
+}
+
+.contact__tel--big {
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 33px;
+  margin-bottom: 61px;
+}
+
+.contact__email {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #ffcf7a;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.contact__adress {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  max-width: 352px;
+}
+
+.contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 279px;
+  height: 60px;
+  border: 1px solid #ceb787;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  transition: 0.25s ease;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #ceb787;
+    color: #232323;
+  }
+}
+
+.footer__lower {
+  padding: 15px 0px 18px 0px;
+  border-top: 1px solid #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+}
+
+.footer__text--link {
+  margin-left: 300px;
+}

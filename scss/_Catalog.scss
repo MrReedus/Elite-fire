@@ -31,7 +31,7 @@
   overflow: hidden;
   &:focus,
   &:hover {
-    background-color: darken(rgb(236, 207, 148), 5);
+    background-color: darken(rgb(236, 207, 148), 8);
   }
   &::before {
     content: "";
@@ -46,17 +46,19 @@
 
 .images-block__images {
   display: flex;
-  flex-wrap: wrap;
   gap: 42px;
 }
+
 .images-block__item {
   width: 370px;
   height: 267px;
+  min-width: 246px;
   background-color: #000;
   &:first-child {
     margin-bottom: 90px;
   }
 }
+
 .title_images {
   text-align: center;
   margin-bottom: 45px;

@@ -15,6 +15,10 @@
   flex-shrink: 1;
 }
 .header__logo {
+  margin-right: 39px;
+}
+
+.logo {
   text-transform: uppercase;
   font-family: "Scania Sans CY";
   font-style: normal;
@@ -22,7 +26,6 @@
   font-size: 20px;
   line-height: 70px;
   color: #fff;
-  margin-right: 39px;
 }
 .header_text {
   font-size: 12px;
