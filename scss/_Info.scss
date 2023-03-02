@@ -21,6 +21,7 @@
 }
 .left-block__image {
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
@@ -30,6 +31,7 @@
     left: 0;
     top: -14px;
   }
+
   &::after {
     content: "";
     position: absolute;
@@ -122,7 +124,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 8.8%; //!121px;
+  column-gap: 8.8%;
 }
 
 .solutions__title {
